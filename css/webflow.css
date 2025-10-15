@@ -69,6 +69,11 @@ html.w-mod-touch * {
   max-width: 100%;
   display: inline-block;
 }
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .w-clearfix:before,
 .w-clearfix:after {
   content: " ";
@@ -635,6 +640,9 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
+  .flex-wrap{
+    flex-wrap: nowrap;
+  }
   .w-hidden-main {
     display: inherit !important;
   }
